@@ -36,7 +36,6 @@
   },
   "devDependencies": {
     "axios": "^0.19.2",
-    "gh-pages": "^2.2.0",
-    "react-lazy-load-image-component": "^1.4.3"
+    "gh-pages": "^2.2.0"
   }
 }

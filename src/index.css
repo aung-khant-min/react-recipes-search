@@ -82,6 +82,8 @@ header a{
 img {
   border-radius: 5px 5px 0 0;
   width: 100%;
+  height:200px;
+  background-color: bisque;
 }
 
 .container {
@@ -126,7 +128,7 @@ details {
   }
 
   .card{
-    width: 85%;
+    width: 90%;
   }
 
 }

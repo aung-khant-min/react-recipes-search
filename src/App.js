@@ -1,8 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
-
 import Ingredients from './components/Ingredients';
 import Instructions from './components/Instructions';
 
@@ -48,7 +45,7 @@ class App extends React.Component {
 
         <header>
           <a href="https://spoonacular.com/food-api">spoonacular recipe and food API</a> <br/>
-          Try search a recipe (e.g. burger,cocktail)
+          Try search for recipes (e.g chicken,noodle etc.)
         </header>
 
         <div className="search">
@@ -62,7 +59,7 @@ class App extends React.Component {
           this.state.recipe.map(
             (recipe)=>
               <div className="card" key={recipe.id}>
-                 <LazyLoadImage src={' https://spoonacular.com/recipeImages/'+recipe.id+'-480x360'} effect="blur"/>
+                 <img src={' https://spoonacular.com/recipeImages/'+recipe.id+'-480x360'} />
                    <div className="container">
                       <h4>{recipe.title}</h4>
                       <Ingredients recipeId={recipe.id}/>
