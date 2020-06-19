@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-live : https://aung-khant-min.github.io/react-recipes-search/
+### Demo
 
-
+https://aung-khant-min.github.io/react-recipes-search/
 
 ## Available Scripts
 
